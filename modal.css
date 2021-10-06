@@ -1,0 +1,79 @@
+/* The Modal (background) */
+#myModal{
+transition-delay:1s;
+transition:ease-in;
+}
+
+.modal {
+  display: none; 
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+transition-delay:1s;
+transition:ease-in;
+}
+
+/* Modal Content/Box */
+.modal-content {
+transition-delay:1s;
+transition:ease-in;
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.myBtn{
+padding-left:35px;
+}
+#myBtn{
+border-radius:10px;
+text-align:center;
+font-size:30px;
+font-weight:bold;
+font-variant:small-caps;
+}
+.param{
+color:black;
+text-align:justify;
+}
+.backhome{
+transition:1s ease-in;
+float:right;
+background-color:blue;
+color:white;
+font-size:30px;
+font-variant:small-caps;
+font-weight:bold;
+text-decoration:none;
+margin-top:10px;
+margin-bottom:10px;
+margin-left:10px;
+margin-right:1px;
+border-radius:5px;
+}
+#backhome{
+padding-top:10px;
+padding-left:140px;
+}
